@@ -45,6 +45,17 @@ Start → ketik **PowerShell** → **Run as Administrator**
 
 ### 2. Izinkan eksekusi script (jika belum)
 
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
+```powershell Set-ExecutionPolicy Bypass -Scope Process -Force```
+
+### Scan seluruh user profile (default)
+
+```powershell -ExecutionPolicy Bypass -File .\scan-axios-windows-full.ps1```
+
+### Scan folder atau project tertentu
+
+```powershell -ExecutionPolicy Bypass -File .\scan-axios-windows-full.ps1 -ScanRoot "D:\path\to\project"```
+
+# ✅ Scan Result — Axios / sfrclak Windows Scanner
+<img width="1238" height="937" alt="image" src="https://github.com/user-attachments/assets/d9b91f0d-e20f-411e-9cfe-5ed943203606" />
+
 
