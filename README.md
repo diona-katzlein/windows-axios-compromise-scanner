@@ -23,5 +23,28 @@ Scanner ini cocok untuk:
 
 ## 📥 Download Script
 
-File utama:
+File utama: [GET HERE - v1](https://raw.githubusercontent.com/diona-katzlein/windows-axios-compromise-scanner/refs/heads/main/scan-axios-windows-full.ps1)
+
+
+---
+
+## 🧰 Requirements
+
+- Windows 10/11  
+- PowerShell 5.1 atau PowerShell 7+  
+- (Opsional) Node.js + npm untuk pemeriksaan cache
+
+---
+
+## ▶️ Cara Menjalankan
+
+### 1. Buka PowerShell sebagai Administrator
+Start → ketik **PowerShell** → **Run as Administrator**
+
+---
+
+### 2. Izinkan eksekusi script (jika belum)
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
 
